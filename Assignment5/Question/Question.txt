@@ -1,0 +1,23 @@
+PART 2 - PROGRAMMING ASSIGNMENT
+Modify HW4-Part3 by adding Declarative Web Application Security.
+Replace JDBC with Hibernate.
+
+PART 3 - PROGRAMMING ASSIGNMENT
+Modify HW4-Part3 by adding Programmatic Web Application Security.
+Replace JDBC with Hibernate.
+
+PART 4 - PROGRAMMING ASSIGNMENT
+Modify HW4-Part4 using Pagination technique to display 100 records per page as discussed in the lecture.
+On the bottom of the page there will be page numbers.
+Clicking on each page number will get 100 rows from the CSV file using CsvJdbc Driver. Displaying the pages will be done SYNCHRONOUSLY as the same as GOOGLE search results page.
+At the end of every row, there will be 2 links or buttons (SAVE, DELETE).
+-If user clicks on SAVE, then an AJAX request will be made, and ONLY the current row will be saved into the database (you don't need to change your JDBC codes from the previous assignment). Once the data is saved in the DB, the current row data will be highlighted in GREEN color, and button caption will be changed to SAVED, and the BUTTON will be disabled to prevent duplicate submissions.
+-If user clicks on DELETE, then current row will be deleted from HTML DOM.
+
+PART 5 - PROGRAMMING ASSIGNMENT
+Modify PART 4 of this assignment to implement PAGINATION via AJAX.
+Initially 100 records will be displayed on the page.
+There will be a LINK or BUTTON on the bottom of the PAGE.
+The caption of the button will be "DISPLAY MORE RECORDS".
+Every time this button is clicked, 100 more records will be appended to the current page using AJAX.
+All other functionality will remain the same as PART 4.

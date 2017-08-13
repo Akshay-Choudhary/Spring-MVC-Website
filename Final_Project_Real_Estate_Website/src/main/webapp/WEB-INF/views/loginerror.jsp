@@ -1,0 +1,17 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Begone!</TITLE>
+<LINK REL=STYLESHEET
+ HREF="../company-styles.css"
+ TYPE="text/css">
+</HEAD>
+<BODY>
+<TABLE BORDER=5 ALIGN="CENTER">
+ <TR><TH CLASS="TITLE">ERROR</TABLE>
+
+<H3>UNAUTHORIZED ACCESS </H3>
+</BODY>
+</HTML>

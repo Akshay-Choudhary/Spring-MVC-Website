@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.neu.bean.Books" table="books">
+        <id column="id" name="id">
+            <generator class="native"/>
+        </id>
+        <property name="isbn" column="isbn" type="string" />
+        <property name="title" column="title" type="string" />
+        <property name="author" column="author" type="string" />
+        <property name="price" column="price" type="float" />
+        
+        
+    </class>
+  
+</hibernate-mapping>
